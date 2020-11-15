@@ -23,6 +23,7 @@ struct ContentView: View {
       }
       Spacer()
       AppName()
+        .backgroundColor(.yellow)
       AppVersion(hasV: true)
       Spacer()
     }
