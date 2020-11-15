@@ -20,6 +20,10 @@ struct ContentView: View {
       RenderConditionally(if: maybeGreeting == "Hello") {
         Text("Hello again!")
       }
+      HStack {
+        Text("Version:")
+        AppVersion()
+      }
     }
   }
 }
