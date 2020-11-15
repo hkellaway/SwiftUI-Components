@@ -26,6 +26,10 @@ struct ContentView: View {
         .backgroundColor(.yellow)
       AppVersion(hasV: true)
       Spacer()
+      Color.blue
+          .frame(width: 300, height: 50)
+          .watermarked(with: "Example watermark")
+      Spacer()
     }
   }
 }

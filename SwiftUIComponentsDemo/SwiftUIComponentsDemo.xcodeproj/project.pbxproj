@@ -22,6 +22,7 @@
 		DCE2614F2560D7060035FAA0 /* AppName.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE2614E2560D7060035FAA0 /* AppName.swift */; };
 		DCE2615B2560D8620035FAA0 /* MainBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE2615A2560D8620035FAA0 /* MainBundle.swift */; };
 		DCE261672560DE2D0035FAA0 /* BackgroundColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE261662560DE2D0035FAA0 /* BackgroundColor.swift */; };
+		DCE2616F2560E0430035FAA0 /* Watermark.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE2616E2560E0430035FAA0 /* Watermark.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		DCE2614E2560D7060035FAA0 /* AppName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppName.swift; sourceTree = "<group>"; };
 		DCE2615A2560D8620035FAA0 /* MainBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainBundle.swift; sourceTree = "<group>"; };
 		DCE261662560DE2D0035FAA0 /* BackgroundColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundColor.swift; sourceTree = "<group>"; };
+		DCE2616E2560E0430035FAA0 /* Watermark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Watermark.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -185,6 +187,7 @@
 			isa = PBXGroup;
 			children = (
 				DCE261662560DE2D0035FAA0 /* BackgroundColor.swift */,
+				DCE2616E2560E0430035FAA0 /* Watermark.swift */,
 			);
 			path = Modifiers;
 			sourceTree = "<group>";
@@ -323,6 +326,7 @@
 				DCE261142560C6A30035FAA0 /* Unwrap.swift in Sources */,
 				DCE2614A2560D6E00035FAA0 /* IfNotThisThenThat.swift in Sources */,
 				DCE260CD2560C1C60035FAA0 /* AppDelegate.swift in Sources */,
+				DCE2616F2560E0430035FAA0 /* Watermark.swift in Sources */,
 				DCE261132560C6A30035FAA0 /* RenderConditionally.swift in Sources */,
 				DCE260CF2560C1C60035FAA0 /* SceneDelegate.swift in Sources */,
 				DCE2615B2560D8620035FAA0 /* MainBundle.swift in Sources */,
