@@ -13,6 +13,7 @@ struct ContentView: View {
     
   var body: some View {
     VStack {
+      Spacer()
       Unwrap(maybeGreeting) { greeting in
         Text("\(greeting), world!")
       }
@@ -20,7 +21,10 @@ struct ContentView: View {
       RenderConditionally(if: maybeGreeting == "Hello") {
         Text("Hello again!")
       }
+      Spacer()
+      AppName()
       AppVersion(hasV: true)
+      Spacer()
     }
   }
 }

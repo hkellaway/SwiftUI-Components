@@ -18,7 +18,9 @@
 		DCE261132560C6A30035FAA0 /* RenderConditionally.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE261112560C6A30035FAA0 /* RenderConditionally.swift */; };
 		DCE261142560C6A30035FAA0 /* Unwrap.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE261122560C6A30035FAA0 /* Unwrap.swift */; };
 		DCE261192560C6AF0035FAA0 /* AppVersion.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE261182560C6AF0035FAA0 /* AppVersion.swift */; };
-		DCE261212560C8470035FAA0 /* InfoPlistValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE261202560C8470035FAA0 /* InfoPlistValue.swift */; };
+		DCE2614A2560D6E00035FAA0 /* IfNotThisThenThat.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE261492560D6E00035FAA0 /* IfNotThisThenThat.swift */; };
+		DCE2614F2560D7060035FAA0 /* AppName.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE2614E2560D7060035FAA0 /* AppName.swift */; };
+		DCE2615B2560D8620035FAA0 /* MainBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE2615A2560D8620035FAA0 /* MainBundle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,7 +58,9 @@
 		DCE261112560C6A30035FAA0 /* RenderConditionally.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RenderConditionally.swift; sourceTree = "<group>"; };
 		DCE261122560C6A30035FAA0 /* Unwrap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Unwrap.swift; sourceTree = "<group>"; };
 		DCE261182560C6AF0035FAA0 /* AppVersion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppVersion.swift; sourceTree = "<group>"; };
-		DCE261202560C8470035FAA0 /* InfoPlistValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoPlistValue.swift; sourceTree = "<group>"; };
+		DCE261492560D6E00035FAA0 /* IfNotThisThenThat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IfNotThisThenThat.swift; sourceTree = "<group>"; };
+		DCE2614E2560D7060035FAA0 /* AppName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppName.swift; sourceTree = "<group>"; };
+		DCE2615A2560D8620035FAA0 /* MainBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainBundle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +115,7 @@
 				DCE260CE2560C1C60035FAA0 /* SceneDelegate.swift */,
 				DCE260D02560C1C60035FAA0 /* ContentView.swift */,
 				DCE260FF2560C2850035FAA0 /* Components */,
+				DCE261592560D8560035FAA0 /* Utilities */,
 				DCE260D22560C1D10035FAA0 /* Assets.xcassets */,
 				DCE260D72560C1D20035FAA0 /* LaunchScreen.storyboard */,
 				DCE260DA2560C1D20035FAA0 /* Info.plist */,
@@ -149,8 +154,8 @@
 			isa = PBXGroup;
 			children = (
 				DCE261102560C6A30035FAA0 /* Foundational */,
+				DCE2614E2560D7060035FAA0 /* AppName.swift */,
 				DCE261182560C6AF0035FAA0 /* AppVersion.swift */,
-				DCE261202560C8470035FAA0 /* InfoPlistValue.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -158,10 +163,19 @@
 		DCE261102560C6A30035FAA0 /* Foundational */ = {
 			isa = PBXGroup;
 			children = (
+				DCE261492560D6E00035FAA0 /* IfNotThisThenThat.swift */,
 				DCE261112560C6A30035FAA0 /* RenderConditionally.swift */,
 				DCE261122560C6A30035FAA0 /* Unwrap.swift */,
 			);
 			path = Foundational;
+			sourceTree = "<group>";
+		};
+		DCE261592560D8560035FAA0 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				DCE2615A2560D8620035FAA0 /* MainBundle.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -296,10 +310,12 @@
 			files = (
 				DCE261192560C6AF0035FAA0 /* AppVersion.swift in Sources */,
 				DCE261142560C6A30035FAA0 /* Unwrap.swift in Sources */,
-				DCE261212560C8470035FAA0 /* InfoPlistValue.swift in Sources */,
+				DCE2614A2560D6E00035FAA0 /* IfNotThisThenThat.swift in Sources */,
 				DCE260CD2560C1C60035FAA0 /* AppDelegate.swift in Sources */,
 				DCE261132560C6A30035FAA0 /* RenderConditionally.swift in Sources */,
 				DCE260CF2560C1C60035FAA0 /* SceneDelegate.swift in Sources */,
+				DCE2615B2560D8620035FAA0 /* MainBundle.swift in Sources */,
+				DCE2614F2560D7060035FAA0 /* AppName.swift in Sources */,
 				DCE260D12560C1C60035FAA0 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

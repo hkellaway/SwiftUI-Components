@@ -12,7 +12,7 @@ struct AppVersion: View {
   var hasV: Bool = false
 
   var body: some View {
-    InfoPlistValue(key: "CFBundleShortVersionString") { appVersion in
+    Unwrap(MainBundle.appVersion) { appVersion in
       Text(hasV ? "v\(appVersion)" : appVersion)
     }
   }
