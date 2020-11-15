@@ -8,10 +8,12 @@
 import SwiftUI
 
 struct AppVersion: View {
+  
+  var hasV: Bool = false
 
   var body: some View {
-    Unwrap(Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String) { appVersion in
-      Text(appVersion)
+    InfoPlistValue(key: "CFBundleShortVersionString") { appVersion in
+      Text(hasV ? "v\(appVersion)" : appVersion)
     }
   }
   
