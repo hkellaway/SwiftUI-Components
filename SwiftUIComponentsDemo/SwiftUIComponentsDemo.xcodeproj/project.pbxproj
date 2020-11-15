@@ -16,6 +16,7 @@
 		DCE260E42560C1D30035FAA0 /* SwiftUIComponentsDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE260E32560C1D30035FAA0 /* SwiftUIComponentsDemoTests.swift */; };
 		DCE260EF2560C1D30035FAA0 /* SwiftUIComponentsDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE260EE2560C1D30035FAA0 /* SwiftUIComponentsDemoUITests.swift */; };
 		DCE261012560C2A60035FAA0 /* Unwrap.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE261002560C2A60035FAA0 /* Unwrap.swift */; };
+		DCE261092560C4040035FAA0 /* RenderConditionally.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE261082560C4040035FAA0 /* RenderConditionally.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		DCE260EE2560C1D30035FAA0 /* SwiftUIComponentsDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIComponentsDemoUITests.swift; sourceTree = "<group>"; };
 		DCE260F02560C1D30035FAA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DCE261002560C2A60035FAA0 /* Unwrap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unwrap.swift; sourceTree = "<group>"; };
+		DCE261082560C4040035FAA0 /* RenderConditionally.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RenderConditionally.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +144,7 @@
 		DCE260FF2560C2850035FAA0 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				DCE261082560C4040035FAA0 /* RenderConditionally.swift */,
 				DCE261002560C2A60035FAA0 /* Unwrap.swift */,
 			);
 			path = Components;
@@ -281,6 +284,7 @@
 				DCE260CD2560C1C60035FAA0 /* AppDelegate.swift in Sources */,
 				DCE260CF2560C1C60035FAA0 /* SceneDelegate.swift in Sources */,
 				DCE260D12560C1C60035FAA0 /* ContentView.swift in Sources */,
+				DCE261092560C4040035FAA0 /* RenderConditionally.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

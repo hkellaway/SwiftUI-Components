@@ -9,15 +9,17 @@ import SwiftUI
 
 struct ContentView: View {
     
-  var maybeGreeting: String? = nil
+  var maybeGreeting: String? = "Hello"
     
   var body: some View {
     VStack {
       Unwrap(maybeGreeting) { greeting in
         Text("\(greeting), world!")
-          .padding()
       }
       Text("Second line")
+      RenderConditionally(if: maybeGreeting == "Hello") {
+        Text("Hello again!")
+      }
     }
   }
 }

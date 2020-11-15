@@ -10,6 +10,7 @@ import SwiftUI
 // Source: https://www.swiftbysundell.com/tips/optional-swiftui-views/
 
 struct Unwrap<Value, Content: View>: View {
+  
     private let value: Value?
     private let contentProvider: (Value) -> Content
 
