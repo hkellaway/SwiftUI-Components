@@ -15,6 +15,7 @@
 		DCE260D92560C1D20035FAA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCE260D72560C1D20035FAA0 /* LaunchScreen.storyboard */; };
 		DCE260E42560C1D30035FAA0 /* SwiftUIComponentsDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE260E32560C1D30035FAA0 /* SwiftUIComponentsDemoTests.swift */; };
 		DCE260EF2560C1D30035FAA0 /* SwiftUIComponentsDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE260EE2560C1D30035FAA0 /* SwiftUIComponentsDemoUITests.swift */; };
+		DCE261012560C2A60035FAA0 /* Unwrap.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE261002560C2A60035FAA0 /* Unwrap.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		DCE260EA2560C1D30035FAA0 /* SwiftUIComponentsDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIComponentsDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCE260EE2560C1D30035FAA0 /* SwiftUIComponentsDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIComponentsDemoUITests.swift; sourceTree = "<group>"; };
 		DCE260F02560C1D30035FAA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCE261002560C2A60035FAA0 /* Unwrap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unwrap.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				DCE260CC2560C1C60035FAA0 /* AppDelegate.swift */,
 				DCE260CE2560C1C60035FAA0 /* SceneDelegate.swift */,
 				DCE260D02560C1C60035FAA0 /* ContentView.swift */,
+				DCE260FF2560C2850035FAA0 /* Components */,
 				DCE260D22560C1D10035FAA0 /* Assets.xcassets */,
 				DCE260D72560C1D20035FAA0 /* LaunchScreen.storyboard */,
 				DCE260DA2560C1D20035FAA0 /* Info.plist */,
@@ -134,6 +137,14 @@
 				DCE260F02560C1D30035FAA0 /* Info.plist */,
 			);
 			path = SwiftUIComponentsDemoUITests;
+			sourceTree = "<group>";
+		};
+		DCE260FF2560C2850035FAA0 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				DCE261002560C2A60035FAA0 /* Unwrap.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,6 +277,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCE261012560C2A60035FAA0 /* Unwrap.swift in Sources */,
 				DCE260CD2560C1C60035FAA0 /* AppDelegate.swift in Sources */,
 				DCE260CF2560C1C60035FAA0 /* SceneDelegate.swift in Sources */,
 				DCE260D12560C1C60035FAA0 /* ContentView.swift in Sources */,

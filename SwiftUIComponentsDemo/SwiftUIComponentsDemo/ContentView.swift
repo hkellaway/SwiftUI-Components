@@ -8,10 +8,18 @@
 import SwiftUI
 
 struct ContentView: View {
-    var body: some View {
-        Text("Hello, world!")
-            .padding()
+    
+  var maybeGreeting: String? = nil
+    
+  var body: some View {
+    VStack {
+      Unwrap(maybeGreeting) { greeting in
+        Text("\(greeting), world!")
+          .padding()
+      }
+      Text("Second line")
     }
+  }
 }
 
 struct ContentView_Previews: PreviewProvider {
