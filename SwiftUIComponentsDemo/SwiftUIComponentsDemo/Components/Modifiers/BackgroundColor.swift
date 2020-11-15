@@ -14,3 +14,12 @@ extension View {
     }
   
 }
+
+struct BackgroundColor_Previews: PreviewProvider {
+  
+  static var previews: some View {
+    Text("Hello, World!")
+      .backgroundColor(.yellow)
+  }
+  
+}

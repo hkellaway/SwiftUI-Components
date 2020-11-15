@@ -24,3 +24,15 @@ struct RenderConditionally<Content: View>: View {
   }
   
 }
+
+struct RenderConditionally_Previews: PreviewProvider {
+  
+  static var shouldShow: Bool = true
+  
+  static var previews: some View {
+    RenderConditionally(if: shouldShow) {
+      /*@START_MENU_TOKEN@*/Text("Hello, World!")/*@END_MENU_TOKEN@*/
+    }
+  }
+  
+}

@@ -1,2 +1,3 @@
 # SwiftUI-Components
-Reusable SwiftUI components
+
+Handy SwiftUI components and view modifiers I've developed or come across.

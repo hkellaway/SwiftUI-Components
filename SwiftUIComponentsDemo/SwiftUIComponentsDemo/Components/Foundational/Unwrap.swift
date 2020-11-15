@@ -25,3 +25,15 @@ struct Unwrap<Value, Content: View>: View {
     }
   
 }
+
+struct Unwrap_Previews: PreviewProvider {
+  
+  static var maybeGreeting: String? = "Hello"
+  
+  static var previews: some View {
+    Unwrap(maybeGreeting) { greeting in
+      Text("\(greeting), World!")
+    }
+  }
+  
+}

@@ -33,3 +33,13 @@ extension View {
     }
   
 }
+
+struct Watermark_Previews: PreviewProvider {
+  
+  static var previews: some View {
+    Color.blue
+        .frame(width: 300, height: 50)
+        .watermarked(with: "Example watermark")
+  }
+  
+}

@@ -31,3 +31,17 @@ struct IfNot<Value, Content: View>: View {
   }
   
 }
+
+struct IfNotThisThenThat_Previews: PreviewProvider {
+  
+  static var maybeThis: String? = nil
+  static var maybeThat: String? = "That"
+  
+  static var previews: some View {
+    IfNot(this: maybeThis,
+          thenThat: maybeThat) { value in
+      Text(value)
+    }
+  }
+  
+}
