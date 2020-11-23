@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "URLImage",
+        "repositoryURL": "https://github.com/dmytro-anokhin/url-image",
+        "state": {
+          "branch": null,
+          "revision": "cedfdb207dcba2aec1229f3e2053bb93460a4244",
+          "version": "2.1.9"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
