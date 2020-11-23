@@ -10,6 +10,8 @@
 		2F05B801256C4BB30047037D /* UnwrapOtherwise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F05B800256C4BB30047037D /* UnwrapOtherwise.swift */; };
 		2F05B807256C4CBF0047037D /* URLImage in Frameworks */ = {isa = PBXBuildFile; productRef = 2F05B806256C4CBF0047037D /* URLImage */; };
 		2F05B80C256C4CCD0047037D /* WebImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F05B80B256C4CCD0047037D /* WebImage.swift */; };
+		2F05B811256C616A0047037D /* StaticSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F05B810256C616A0047037D /* StaticSearchBar.swift */; };
+		2F05B819256C61880047037D /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F05B818256C61880047037D /* Color+Extension.swift */; };
 		DCE260CD2560C1C60035FAA0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE260CC2560C1C60035FAA0 /* AppDelegate.swift */; };
 		DCE260CF2560C1C60035FAA0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE260CE2560C1C60035FAA0 /* SceneDelegate.swift */; };
 		DCE260D12560C1C60035FAA0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE260D02560C1C60035FAA0 /* ContentView.swift */; };
@@ -48,6 +50,8 @@
 /* Begin PBXFileReference section */
 		2F05B800256C4BB30047037D /* UnwrapOtherwise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnwrapOtherwise.swift; sourceTree = "<group>"; };
 		2F05B80B256C4CCD0047037D /* WebImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebImage.swift; sourceTree = "<group>"; };
+		2F05B810256C616A0047037D /* StaticSearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticSearchBar.swift; sourceTree = "<group>"; };
+		2F05B818256C61880047037D /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
 		DCE260C92560C1C60035FAA0 /* SwiftUIComponentsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIComponentsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCE260CC2560C1C60035FAA0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DCE260CE2560C1C60035FAA0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -167,6 +171,7 @@
 				DCE261102560C6A30035FAA0 /* Foundational */,
 				DCE2614E2560D7060035FAA0 /* AppName.swift */,
 				DCE261182560C6AF0035FAA0 /* AppVersion.swift */,
+				2F05B810256C616A0047037D /* StaticSearchBar.swift */,
 				2F05B80B256C4CCD0047037D /* WebImage.swift */,
 			);
 			path = Components;
@@ -186,6 +191,7 @@
 		DCE261592560D8560035FAA0 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				2F05B818256C61880047037D /* Color+Extension.swift */,
 				DCE2615A2560D8620035FAA0 /* MainBundle.swift */,
 			);
 			path = Utilities;
@@ -337,8 +343,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				DCE261192560C6AF0035FAA0 /* AppVersion.swift in Sources */,
+				2F05B819256C61880047037D /* Color+Extension.swift in Sources */,
 				DCE261142560C6A30035FAA0 /* Unwrap.swift in Sources */,
 				2F05B80C256C4CCD0047037D /* WebImage.swift in Sources */,
+				2F05B811256C616A0047037D /* StaticSearchBar.swift in Sources */,
 				DCE2614A2560D6E00035FAA0 /* IfNotThisThenThat.swift in Sources */,
 				DCE260CD2560C1C60035FAA0 /* AppDelegate.swift in Sources */,
 				DCE2616F2560E0430035FAA0 /* Watermark.swift in Sources */,
