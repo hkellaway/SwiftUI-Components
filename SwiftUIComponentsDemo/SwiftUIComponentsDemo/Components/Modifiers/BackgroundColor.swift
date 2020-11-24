@@ -9,8 +9,8 @@ import SwiftUI
 
 extension View {
   
-  func backgroundColor(_ color: Color) -> some View {
-    self.background(color)
+  func backgroundColor(_ uiColor: UIColor) -> some View {
+    self.background(Color(uiColor))
   }
   
 }
@@ -19,7 +19,7 @@ struct BackgroundColor_Previews: PreviewProvider {
   
   static var previews: some View {
     Text("Hello, World!")
-      .backgroundColor(.yellow)
+      .backgroundColor(.systemTeal)
   }
   
 }
